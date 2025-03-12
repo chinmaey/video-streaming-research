@@ -26,6 +26,10 @@ This repository compiles my research and publications related to video streaming
   - Improved bandwidth estimation results in better prediction accuracy and significantly enhanced QoE for end users.
 
 ### 3. C2: Consumption Context Cognizant ABR Streaming for Improved QoE and Resource Usage Tradeoffs  
+- 📄 **Patents:**
+  - **Method and Apparatus for Adaptive Bit Streaming Using Consumption Context**  
+    - **Patent Application:** US Patent App. 18/064,163  
+    - **Description:** This patent outlines a method that leverages consumption context to optimize adaptive bitrate streaming, significantly reducing data usage while maintaining or enhancing Quality of Experience (QoE).
 - **Publications:**  
   - [ACM MMSys 2022](https://dl.acm.org/doi/abs/10.1145/3524273.3528185) (**DASH-IF Excellence in DASH Awards 2022, 3rd Place**)🏆 
   - [ACM TOMM](https://dl.acm.org/doi/abs/10.1145/3652517)  
@@ -37,7 +41,7 @@ This repository compiles my research and publications related to video streaming
   - A proof-of-concept implementation in the ExoPlayer platform demonstrates **significantly improved tradeoffs between QoE and resource usage**.
 
 ### **Implementation details**  
-- **Video Encoding Pipelines:** Using **H.264, H.265, AV1** codecs, **FFMpeg**, AWS Elemental MediaConvert.  
+- **Optimized Video Encoding Pipelines:** Using **H.264, H.265, AV1** codecs, **FFMpeg**, AWS Elemental MediaConvert.  
 - **Cloud & Microservices:** **AWS ECS, EKS, EC2, S3**, Kubernetes, Docker for scalable deployments.  
 - **Multi-Platform Support:** **dash.js, Shaka Player, ExoPlayer**, and MATLAB-based simulations.  
 - **Network Optimization:** Cross-layer **bandwidth estimation, QoE monitoring**, CDN configuration.  
